@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+root {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+.myStyle {
+  /* @apply bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent; */
+
+  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}

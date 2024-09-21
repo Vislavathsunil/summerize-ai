@@ -82,6 +82,7 @@ function Demo() {
         if (index > -1) {
             allArticles.splice(index, 1);
             localStorage.setItem("articles", JSON.stringify(allArticles));
+            setArticle({ url: "", summary: "" });
             getLocalSummaries();
         }
     }
@@ -150,7 +151,7 @@ function Demo() {
 
             {/* All rights are reserved */}
             <div>
-                <p className='text-center text-slate-600 text-sm  py-4 ' >&copy;Sunil, All rights are reserved.</p>
+                <p className='text-center text-slate-600 text-sm  pt-4' >&copy;Sunil, All rights are reserved.</p>
             </div>
 
 

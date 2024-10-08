@@ -2,7 +2,7 @@
 
 ***URL summarizer application that extracts key information from any given URL, providing a concise summary of the webpage content. Built with React JS and styled with Tailwind CSS, the application leverages RapidAPI to fetch and process URL data.***
 
-## Tech Stack
+## 🛠️ Technologies UsedTech Stack
 - **Frontend:** React JS
 - **Styling:** Tailwind CSS
 - **API:** RapidAPI for URL summarization
